@@ -1,0 +1,364 @@
+@import "tailwindcss";
+
+
+body {
+  background-color: rgba(0, 0, 0, 0.937);
+  font-family: "DM Sans", sans-serif;
+}
+
+@keyframes fillBar {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes bounceOnce {
+  0% {
+    transform: translateY(50%);
+    opacity: 0;
+  }
+
+  40% {
+    transform: translateY(-30px);
+    opacity: 1;
+  }
+
+  70% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.bounce-once {
+  animation: bounceOnce 1.5s cubic-bezier(0.50, 0.46, 0.45, 0.94) forwards;
+}
+
+
+@media (max-width: 1150px) {
+  .smDashboard1150 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    margin-bottom: 350px;
+  }
+
+  .smDashboardImg1150 {
+    top: 320px;
+
+  }
+
+  .smDashTextDiv {
+    padding-left: 20px;
+  }
+
+  .smDashboardBgExpand1150 {
+    height: 300px;
+    background-color: #171717f1;
+    width: 100%;
+    position: absolute;
+    bottom: -220px;
+    z-index: -10;
+    border-radius: 24px;
+
+  }
+
+  .smDashboard1150 p {
+    max-width: 1000px !important;
+  }
+
+  .WidthIncrease {
+    max-width: 1000px;
+  }
+
+
+
+
+
+
+}
+
+@media (max-width: 1230px) {
+
+  .footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .reviewDescriptionPadding {
+
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+}
+
+@media (max-width: 1000px) {
+
+  .pricingCard1000px {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .pricingLastCardMargin1000px {
+    grid-column: 1 / 3;
+
+    justify-self: center;
+  }
+
+
+
+}
+
+@media (max-width: 1050px) {
+
+  .speedContent1050px {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+  }
+
+  .collaborationContentPadding1050 {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  /* .graphCards1050 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 850px;
+    justify-items: center;
+    /* ← this will horizontally center each card */
+  /* } */
+
+
+  /* .graphDash1050 {
+    grid-column: span 2;
+    /* now your “Dashboard” card really spans two columns */
+  /* max-width: 850px;
+    justify-self: center; */
+  /* }  */
+
+
+  /* .smallCardMargin1050 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 370px;
+  } */
+
+}
+
+@media (max-width: 1249px) and (min-width: 950px) {
+
+  .collaborationCard1000px {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .collaborationLastCardMargin1000px {
+    grid-column: 1 / 3;
+
+    justify-self: center;
+  }
+
+  .collaborationText1150 {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+
+}
+
+@media (max-width: 1000px) {
+
+  .analyticContent1000 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+
+  .analyticTextBtn1000px {
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+  }
+
+  .increaseAnalyticWidth1000 {
+    max-width: 1200px;
+    padding-left: 0;
+  }
+
+  .analyticTextWidth1000 {
+    max-width: 600px;
+  }
+
+  /* .. */
+  .aiContent1000 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+
+  .aiTextBtn1000px {
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+  }
+
+  .increaseAiWidth1000 {
+    max-width: 1200px;
+    padding-left: 0;
+  }
+
+  .TextHeaderPadding1000 {
+    max-width: 1000px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  /* .. */
+  .animateBtnContent1000 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+  }
+
+  .animateBtnTextContentWidth1000 {
+    max-width: 1200px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .animateBtnText1000 {
+    display: flex;
+    gap: 100px;
+  }
+
+  /* ---- */
+
+
+
+}
+
+@media (max-width: 950px) {
+  .collaborationCards950 {
+    display: grid;
+    grid-template-columns: 1fr !important;
+    place-items: center;
+  }
+
+  .collaborationText950 {
+    max-width: 1080px;
+
+  }
+
+  .collaborationPic950 {
+    max-width: 380px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .cardPadding950 {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+
+
+@media (max-width: 1000px) {}
+
+@media (max-width: 900px) {
+
+  .graphCardsCont900 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 1050px) and (min-width: 851px) {
+  .graphCards1050 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 850px;
+    justify-items: center;
+    /* ← this will horizontally center each card */
+  }
+
+
+  .graphDash1050 {
+    grid-column: span 2;
+    /* now your “Dashboard” card really spans two columns */
+    max-width: 850px;
+    justify-self: center;
+  }
+
+
+  .smallCardMargin1050 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 370px;
+  }
+}
+
+@media (max-width: 850px) {
+  .graphCards850 {
+    display: flex;
+    /* grid-template-columns: 1fr !important;
+    max-width: 100% !important; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navBarWidth850 {
+    max-width: 600px;
+  }
+
+  .dataTrackCard850 {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-self: center;
+  }
+
+  .dataTrackCardText850 {
+    max-width: 650px;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 851px) {
+  .dataTrackCard1200 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-self: center;
+  }
+
+  .dataTrackCardText1200 {
+    max-width: 650px;
+
+  }
+}
+
+@media (max-width: 430px) {
+  .heroSectionBtns430 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
