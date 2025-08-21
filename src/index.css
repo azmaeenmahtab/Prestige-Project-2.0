@@ -101,18 +101,18 @@ body {
 
 @media (max-width: 1000px) {
 
-  .pricingCard1000px {
+  /* .pricingCard1000px {
     grid-template-columns: repeat(2, 1fr);
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-  }
+  } */
 
-  .pricingLastCardMargin1000px {
+  /* .pricingLastCardMargin1000px {
     grid-column: 1 / 3;
 
     justify-self: center;
-  }
+  } */
 
 
 

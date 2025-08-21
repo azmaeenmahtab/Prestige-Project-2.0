@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import animate3 from "../../../assets/assistant.webp";
 import animate1 from "../../../assets/collaboratio.webp";
 import animate2 from "../../../assets/automation.webp";
