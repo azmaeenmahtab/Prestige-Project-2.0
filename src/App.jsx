@@ -8,6 +8,7 @@ import StaticFeature from "./components/LandingPage/Static Feature/staticFeature
 import SpeedFeature from "./components/LandingPage/Speed Feature/speedFeature";
 import Pricing from "./components/LandingPage/Pricing Cards/pricing";
 import Review from "./components/LandingPage/Review Section/review";
+import AccordionUsage from "./components/LandingPage/FAQ/accordion";
 function App() {
  
   return (
@@ -22,6 +23,7 @@ function App() {
        <SpeedFeature />
        <Pricing />
        <Review />
+       <AccordionUsage />
     </>
   )
 }
