@@ -217,7 +217,7 @@ body {
   .aiTextBtn1000px {
     display: flex;
     justify-content: space-between;
-    gap: 120px;
+    /* gap: 0px; */
   }
 
   .increaseAiWidth1000 {
