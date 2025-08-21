@@ -4,7 +4,8 @@ import Framer from "./components/LandingPage/Framer/framer";
 import ProductFeature from "./components/LandingPage/ProductFeature/productfeature";
 import AnalyticalFeature from "./components/LandingPage/AnalyticalFeature/analyticalfeature";
 import AnimatedFeature from "./components/LandingPage/AnimatedFeature/animatedfeature";
-import StaticFeature from "./components/LandingPage/Feature Ai/featureai";
+import StaticFeature from "./components/LandingPage/Static Feature/staticFeature";
+import SpeedFeature from "./components/LandingPage/Speed Feature/speedFeature";
 function App() {
  
   return (
@@ -16,6 +17,7 @@ function App() {
        <AnalyticalFeature />
        <AnimatedFeature />
        <StaticFeature />
+       <SpeedFeature />
 
     </>
   )
