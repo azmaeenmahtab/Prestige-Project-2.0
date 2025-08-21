@@ -184,6 +184,17 @@ body {
 
 }
 
+@media (max-width: 640px) {
+
+  .colabcards640px {
+
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+}
+
+
 @media (max-width: 1000px) {
 
   .analyticContent1000 {
@@ -195,7 +206,7 @@ body {
   .analyticTextBtn1000px {
     display: flex;
     justify-content: space-between;
-    gap: 120px;
+    /* gap: 120px; */
   }
 
   .increaseAnalyticWidth1000 {
@@ -203,9 +214,9 @@ body {
     padding-left: 0;
   }
 
-  .analyticTextWidth1000 {
+  /* .analyticTextWidth1000 {
     max-width: 600px;
-  }
+  } */
 
   /* .. */
   .aiContent1000 {
@@ -269,10 +280,15 @@ body {
   }
 
   .collaborationPic950 {
+    width: 100%;
     max-width: 380px;
+    /* stays capped at 380px */
+    height: auto;
+    /* maintains aspect ratio */
     margin-right: auto;
     margin-left: auto;
   }
+
 
   .cardPadding950 {
     padding-left: 40px;

@@ -41,7 +41,7 @@ const StaticFeature = ( ) => {
         <div className="text-center mt-[90px] text-gray-300">
           
             <div>
-              <div className="max-w-[1280px] mx-auto flex flex-col md:flex-row justify-between items-center gap-8 px-[40px] aiContent1000">
+              <div className="max-w-[1280px] mx-auto flex flex-col md:flex-row justify-between items-center gap-8 sm:px-[40px] px-5 aiContent1000">
                 <div className="text-left max-w-[560px] pt-5 increaseAiWidth1000">
                   <div className="aiTextBtn1000px flex flex-col gap-10">
                   <div>
@@ -147,9 +147,9 @@ const StaticFeature = ( ) => {
         <div className="text-center mt-[90px] text-gray-300 mb-[300px] ">
           
             <div>
-              <div className="max-w-[1280px] mx-auto flex flex-row-reverse justify-between items-center gap-8 px-[40px] analyticContent1000">
+              <div className="max-w-[1280px] mx-auto flex flex-row-reverse justify-between items-center gap-8 sm:px-[40px] px-5 analyticContent1000">
                 <div className="text-left max-w-[560px] pt-5 pl-2 increaseAnalyticWidth1000">
-                  <div className="analyticTextBtn1000px">
+                  <div className="analyticTextBtn1000px flex flex-col gap-10">
                   <div>
                   <div className="flex items-center gap-4 text-purple-400">
                     <div className="flex items-center justify-center  w-12 h-12 border border-purple-400/80 rounded-xl bg-[#322659]">
@@ -158,14 +158,14 @@ const StaticFeature = ( ) => {
                     <h4 className="font-semibold">Simple Analytics</h4>
                   </div>
 
-                  <h3 className="text-[32px] font-semibold text-white my-3.5 max-w-[540px] tracking-wide">Help you track what really matters to you</h3>
+                  <h3 className="text-[32px] font-semibold text-white my-3.5   tracking-wide">Help you track what really matters to you</h3>
 
 
                   <p className=" text-gray-400 analyticTextWidth1000">It helps businesses make informed predictions and anticipate trends, enabling proactive decision-making and planning.</p>
                   </div>
                     {/* learn more button */}
                   <div className="flex justify-start items-center w-[160px]">
-                  <button className="mt-[50px] text-white bg-[#171923] rounded-full px-6 py-4 border border-gray-400/40 cursor-pointer hover:bg-gray-200/15 transition-all w-[160px]">
+                  <button className="  text-white bg-[#171923] rounded-full px-6 py-4 border border-gray-400/40 cursor-pointer hover:bg-gray-200/15 transition-all w-[160px]">
                     Learn more
                     <FontAwesomeIcon icon={faAngleRight} className="ml-2 text-white" />
                   </button>
@@ -173,7 +173,7 @@ const StaticFeature = ( ) => {
                   </div>
 
                     {/* vedio editing part */}
-                  <div className="mt-12 flex gap-10">
+                  <div className="mt-12 flex flex-col sm:flex-row gap-10">
                     {/* right part  */}
                     <div>
 
@@ -191,7 +191,7 @@ const StaticFeature = ( ) => {
 
                     <h4 className="mt-3 text-white font-semibold mb-2">Charts tracking</h4>
 
-                    <p className="text-gray-500 max-w-[280px]">Built-in analytics and reporting capabilities help gather insights.</p>
+                    <p className="text-gray-500  ">Built-in analytics and reporting capabilities help gather insights.</p>
 
                     <div className="flex justify-start items-center transition-all">
                     <button className="font-semibold text-white hover:text-gray-400 py-4 cursor-pointer transition-colors flex items-center">
@@ -219,7 +219,7 @@ const StaticFeature = ( ) => {
 
                     <h4 className="mt-3 text-white font-semibold mb-2">Vedio editing</h4>
 
-                    <p className="text-gray-500 max-w-[280px]">Seamlessly transform raw footage into polished masterpieces.</p>
+                    <p className="text-gray-500  ">Seamlessly transform raw footage into polished masterpieces.</p>
 
                     <div className="flex justify-start items-center transition-all">
                     <button className="font-semibold text-white hover:text-gray-400 py-4 cursor-pointer transition-colors flex items-center">
@@ -249,20 +249,20 @@ const StaticFeature = ( ) => {
           
 
         {/* third - collaboration part */}
-        <div className="max-w-[1200px] mx-auto flex justify-between gap-8 mb-12 px-5 collaborationText1150 collaborationContentPadding1050">
-                <div className="text-left max-w-[550px]  pt-5">
+        <div className="max-w-[1200px] mx-auto flex flex-col md:flex-row justify-between gap-10 mb-12 px-5 collaborationText1150 collaborationContentPadding1050 colabcards640px">
+                <div className="text-left md:max-w-[550px]  pt-5">
                   <div className="flex items-center gap-4 text-orange-300">
                     <div className="flex items-center justify-center w-12 h-12 border border-orange-300/60 rounded-2xl bg-yellow-900">
                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="24px" width="24px" xmlns="http://www.w3.org/2000/svg" ><path d="M3.5 8a5.5 5.5 0 1 1 8.596 4.547 9.005 9.005 0 0 1 5.9 8.18.751.751 0 0 1-1.5.045 7.5 7.5 0 0 0-14.993 0 .75.75 0 0 1-1.499-.044 9.005 9.005 0 0 1 5.9-8.181A5.496 5.496 0 0 1 3.5 8ZM9 4a4 4 0 1 0 0 8 4 4 0 0 0 0-8Zm8.29 4c-.148 0-.292.01-.434.03a.75.75 0 1 1-.212-1.484 4.53 4.53 0 0 1 3.38 8.097 6.69 6.69 0 0 1 3.956 6.107.75.75 0 0 1-1.5 0 5.193 5.193 0 0 0-3.696-4.972l-.534-.16v-1.676l.41-.209A3.03 3.03 0 0 0 17.29 8Z"></path></svg>
                     </div>
                     <h4 className="font-semibold">Easy Collaboration</h4>
                   </div>
-                  <h3 className="text-[32px] font-semibold text-white my-3.5 max-w-[470px] tracking-wide">The best solution for seamless productive teamwork</h3>
+                  <h3 className="text-[32px] font-semibold text-white my-3.5  tracking-wide">The best solution for seamless productive teamwork</h3>
                   <p className="text-gray-400">Working together on documents has never been easier, allowing you and your team to collaborate and provide feedback.</p>
                   
                 </div>
                 <div className="flex justify-center items-center w-[160px]">
-                  <button className="mt-[50px] text-white bg-[#171923] rounded-full px-6 py-4 border border-gray-400/40 cursor-pointer hover:bg-gray-200/15 transition-all w-[160px]">
+                  <button className="  text-white bg-[#171923] rounded-full px-6 py-4 border border-gray-400/40 cursor-pointer hover:bg-gray-200/15 transition-all w-[160px]">
                     Learn more
                     <FontAwesomeIcon icon={faAngleRight} className="ml-2 text-white" />
                   </button>
@@ -271,20 +271,51 @@ const StaticFeature = ( ) => {
                 
         </div>
         {/* grid */}
-        <div className="grid grid-cols-3 max-w-[1200px] mx-auto mb-[280px] gap-5 px-5 collaborationCards950 collaborationCard1000px ">
-            <div className="max-w-[380px] collaborationText950">  {/* card 1 */}
-              <img src={gridpic1} alt="" className="rounded-3xl mb-7 collaborationPic950" />
+        <div className="grid grid-cols-3 max-w-[1200px] mx-auto mb-[280px] gap-5  collaborationCards950 collaborationCard1000px colabcards640px">
+            <div className="w-full collaborationText950  ">  {/* card 1 */}
+              <img src={gridpic1} alt="" className="rounded-3xl mb-7 collaborationPic950 " />
 
-              <div className="cardPadding950"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="20px" width="20px" xmlns="http://www.w3.org/2000/svg" class="text-orange-300"><path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM188.3 147.1c7.6-4.2 16.8-4.1 24.3 .5l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.3 .5s-12.3-12.2-12.3-20.9V168c0-8.7 4.7-16.7 12.3-20.9z"></path></svg><h4 class="mt-3 text-white font-semibold mb-2">Vedio editing</h4><p class="text-gray-500 max-w-[380px] collaborationText950">The ability to set varying levels of permissions for different users, ensuring data security and full access control.</p><div class="flex justify-start items-center transition-all"><button class="font-semibold text-white hover:text-gray-400 py-4 cursor-pointer transition-colors flex items-center">Learn more<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right ml-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path></svg></button></div>
+              <div className="sm:px-[40px]">
+                <svg 
+                stroke="currentColor" 
+                fill="currentColor" 
+                stroke-width="0" 
+                viewBox="0 0 512 512" 
+                height="20px" 
+                width="20px" 
+                xmlns="http://www.w3.org/2000/svg" 
+                class="text-orange-300">
+                    <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM188.3 147.1c7.6-4.2 16.8-4.1 24.3 .5l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.3 .5s-12.3-12.2-12.3-20.9V168c0-8.7 4.7-16.7 12.3-20.9z">
+                    </path>
+                </svg>
+                <h4 class="mt-3 text-white font-semibold mb-2">Vedio editing</h4>
+                <p class="text-gray-500 max-w-[380px] collaborationText950 ">The ability to set varying levels of permissions for different users, ensuring data security and full access control.</p>
+                <div class="flex justify-start items-center transition-all">
+                    <button class="font-semibold text-white hover:text-gray-400 py-4 cursor-pointer transition-colors flex items-center">
+                        Learn more
+                        <svg 
+                        aria-hidden="true" 
+                        focusable="false" 
+                        data-prefix="fas" 
+                        data-icon="angle-right" 
+                        class="svg-inline--fa fa-angle-right ml-2" 
+                        role="img" 
+                        xmlns="http://www.w3.org/2000/svg" 
+                        viewBox="0 0 320 512">
+                            <path fill="currentColor" d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z">
+                            </path>
+                        </svg>
+                        </button>
+                        </div>
             </div>
             
             </div>
 
 
-            <div className="max-w-[380px] collaborationText950">  {/* card 2 */}
-              <img src={gridpic2} alt="" className="rounded-3xl mb-7 collaborationPic950" />
+            <div className="w-full collaborationText950">  {/* card 2 */}
+              <img src={gridpic2} alt="" className="rounded-3xl mb-7 collaborationPic950 " />
             
-              <div className="cardPadding950"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="20px" width="20px" xmlns="http://www.w3.org/2000/svg" class="text-orange-300"><path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM188.3 147.1c7.6-4.2 16.8-4.1 24.3 .5l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.3 .5s-12.3-12.2-12.3-20.9V168c0-8.7 4.7-16.7 12.3-20.9z"></path></svg><h4 class="mt-3 text-white font-semibold mb-2">Vedio editing</h4><p class="text-gray-500 max-w-[380px] collaborationText950">The ability to set varying levels of permissions for different users, ensuring data security and full access control.</p><div class="flex justify-start items-center transition-all"><button class="font-semibold text-white hover:text-gray-400 py-4 cursor-pointer transition-colors flex items-center">Learn more<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right ml-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path></svg></button></div></div>
+              <div className="sm:px-[40px]"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="20px" width="20px" xmlns="http://www.w3.org/2000/svg" class="text-orange-300"><path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM188.3 147.1c7.6-4.2 16.8-4.1 24.3 .5l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.3 .5s-12.3-12.2-12.3-20.9V168c0-8.7 4.7-16.7 12.3-20.9z"></path></svg><h4 class="mt-3 text-white font-semibold mb-2">Vedio editing</h4><p class="text-gray-500 max-w-[380px] collaborationText950">The ability to set varying levels of permissions for different users, ensuring data security and full access control.</p><div class="flex justify-start items-center transition-all"><button class="font-semibold text-white hover:text-gray-400 py-4 cursor-pointer transition-colors flex items-center">Learn more<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right ml-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path></svg></button></div></div>
 
             </div>
 
@@ -292,7 +323,7 @@ const StaticFeature = ( ) => {
             <div className="collaborationLastCardMargin1000px max-w-[380px] collaborationText950">   {/* card 3 */}
               <img src={gridpic3} alt="" className="rounded-3xl mb-7 collaborationPic950" />
               
-              <div className="cardPadding950"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="20px" width="20px" xmlns="http://www.w3.org/2000/svg" class="text-orange-300"><path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM188.3 147.1c7.6-4.2 16.8-4.1 24.3 .5l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.3 .5s-12.3-12.2-12.3-20.9V168c0-8.7 4.7-16.7 12.3-20.9z"></path></svg><h4 class="mt-3 text-white font-semibold mb-2">Vedio editing</h4><p class="text-gray-500 max-w-[380px] collaborationText950">The ability to set varying levels of permissions for different users, ensuring data security and full access control.</p><div class="flex justify-start items-center transition-all"><button class="font-semibold text-white hover:text-gray-400 py-4 cursor-pointer transition-colors flex items-center">Learn more<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right ml-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path></svg></button></div></div>
+              <div className="sm:px-[40px]"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="20px" width="20px" xmlns="http://www.w3.org/2000/svg" class="text-orange-300"><path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM188.3 147.1c7.6-4.2 16.8-4.1 24.3 .5l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.3 .5s-12.3-12.2-12.3-20.9V168c0-8.7 4.7-16.7 12.3-20.9z"></path></svg><h4 class="mt-3 text-white font-semibold mb-2">Vedio editing</h4><p class="text-gray-500 max-w-[380px] collaborationText950">The ability to set varying levels of permissions for different users, ensuring data security and full access control.</p><div class="flex justify-start items-center transition-all"><button class="font-semibold text-white hover:text-gray-400 py-4 cursor-pointer transition-colors flex items-center">Learn more<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right ml-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path></svg></button></div></div>
               
             </div>
 
