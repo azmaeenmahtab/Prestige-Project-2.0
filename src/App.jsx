@@ -7,6 +7,7 @@ import AnimatedFeature from "./components/LandingPage/AnimatedFeature/animatedfe
 import StaticFeature from "./components/LandingPage/Static Feature/staticFeature";
 import SpeedFeature from "./components/LandingPage/Speed Feature/speedFeature";
 import Pricing from "./components/LandingPage/Pricing Cards/pricing";
+import Review from "./components/LandingPage/Review Section/review";
 function App() {
  
   return (
@@ -20,6 +21,7 @@ function App() {
        <StaticFeature />
        <SpeedFeature />
        <Pricing />
+       <Review />
     </>
   )
 }
