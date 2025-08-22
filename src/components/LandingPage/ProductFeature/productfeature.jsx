@@ -1,6 +1,6 @@
 const ProductFeature = () => {
   return (
-    <div className="p-6 pb-0 mb-[300px] bg-[#101010] text-white">
+    <div className="p-6 pb-0 sm:mb-[300px] mb-[200px] bg-[#101010] text-white">
       {/* Text content */}
       <div className="text-center mb-[80px] max-w-[720px] mx-auto flex flex-col items-center">
         <div className="flex justify-center mb-6 items-center gap-[5px] border border-teal-400/60 w-[100px] rounded-full px-[5px] py-[3px] bg-teal-400/10 text-teal-400">

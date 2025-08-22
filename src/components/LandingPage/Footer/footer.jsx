@@ -4,9 +4,9 @@ const Footer = () => {
 
 
     return (
-        <div className="max-w-[1200px] mx-auto footer ">
+        <div className="max-w-[1200px] mx-auto footer mt-[400px] sm:mt-0">
         {/* lists div container */}
-        <div className="flex sm:flex-row flex-col gap-8 justify-between items-start mb-[90px] ">
+        <div className="flex sm:flex-row flex-col gap-8 justify-between items-start sm:mb-[90px] mb-[40px] ">
             {/* icon / name div */}
         <div className="flex gap-[4px] items-center">
           <img

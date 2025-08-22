@@ -14,7 +14,7 @@ const StaticFeature = ( ) => {
 
     return (<div>
         {/* text header top part */}
-        <div className="text-center mb-[80px] max-w-[720px] mx-auto flex flex-col items-center">
+        <div className="text-center sm:mb-[80px] mb-[40px] max-w-[720px] mx-auto flex flex-col items-center">
         <div className="flex justify-center mb-6 items-center gap-[5px] border border-teal-400/60 w-[100px] rounded-full px-[5px] py-[3px] bg-teal-400/10 text-teal-400">
           <svg
             stroke="currentColor"
@@ -38,8 +38,8 @@ const StaticFeature = ( ) => {
 
 
         {/* first ai content part */}
-        <div className="text-center mt-[90px] text-gray-300">
-          
+        <div className="text-center sm:mt-[90px] mt-[0px] text-gray-300">
+
             <div>
               <div className="max-w-[1280px] mx-auto flex flex-col md:flex-row justify-between items-center gap-8 sm:px-[40px] px-5 aiContent1000">
                 <div className="text-left max-w-[560px] pt-5 increaseAiWidth1000">
@@ -144,7 +144,7 @@ const StaticFeature = ( ) => {
 
 
         {/* second analytic content */}
-        <div className="text-center mt-[90px] text-gray-300 mb-[300px] ">
+        <div className="text-center sm:mt-[90px] mt-[45px] text-gray-300 sm:mb-[300px] mb-[100px]">
           
             <div>
               <div className="max-w-[1280px] mx-auto flex flex-row-reverse justify-between items-center gap-8 sm:px-[40px] px-5 analyticContent1000">
@@ -271,7 +271,7 @@ const StaticFeature = ( ) => {
                 
         </div>
         {/* grid */}
-        <div className="grid grid-cols-3 max-w-[1200px] mx-auto mb-[280px] gap-5  collaborationCards950 collaborationCard1000px colabcards640px">
+        <div className="grid grid-cols-3 max-w-[1200px] mx-auto sm:mb-[280px] mb-[120px] gap-5  collaborationCards950 collaborationCard1000px colabcards640px">
             <div className="w-full collaborationText950  ">  {/* card 1 */}
               <img src={gridpic1} alt="" className="rounded-3xl mb-7 collaborationPic950 " />
 

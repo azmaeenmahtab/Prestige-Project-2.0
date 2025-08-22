@@ -30,7 +30,7 @@ const Review = () => {
       </div>
 
       {/* animation part */}
-      <div className="relative max-w-[1200px] mx-auto overflow-hidden mb-[300px]">
+      <div className="relative max-w-[1200px] mx-auto overflow-hidden sm:mb-[300px] mb-[150px]">
        {/* Left fading edge */}
 <div className="absolute left-0 top-0 h-full md:w-[400px] sm:w-[300px] w-[100px] z-20 pointer-events-none bg-[linear-gradient(to_right,#0f0f0f,rgba(255,0,0,0))]" />
 

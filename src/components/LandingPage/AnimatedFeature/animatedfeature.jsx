@@ -29,7 +29,7 @@ export default function AnimatedFeature() {
   return (
     
     <>
-      <div className="p-6 py-0 mb-[284px] bg-[#101010] text-white">
+      <div className="p-6 py-0 sm:mb-[284px] mb-[200px] bg-[#101010] text-white">
         {/* heading part */}
         <div className="text-center mb-[80px] w-full max-w-[720px] mx-auto flex flex-col items-center">
           <div className="flex justify-center mb-6 items-center gap-[5px] border border-teal-400/60 w-[100px] rounded-full px-[5px] py-[3px] bg-teal-400/10 text-teal-400">

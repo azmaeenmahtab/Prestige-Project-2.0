@@ -11,10 +11,12 @@ import Review from "./components/LandingPage/Review Section/review";
 import AccordionUsage from "./components/LandingPage/FAQ/accordion";
 import SmallDashboard from "./components/LandingPage/Small Dashboard/smalldashboard";
 import Footer from "./components/LandingPage/Footer/footer";
+import Navbar from "./components/LandingPage/Navbar/navbar";
 function App() {
  
   return (
     <>
+       <Navbar />
        <Hero />
        <Dashboard />
        <Framer />

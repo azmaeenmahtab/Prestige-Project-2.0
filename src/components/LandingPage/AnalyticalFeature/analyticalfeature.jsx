@@ -2,7 +2,7 @@ import DashboardPic from "../../../assets/dashbard-img.webp"
 import AnalyticPic from '../../../assets/ai-line.webp'
 const AnalyticalFeature = () => {
   return (
-    <div className="px-5 mb-[284px] bg-[#101010] text-white">
+    <div className="px-5 sm:mb-[284px] mb-[200px] bg-[#101010] text-white">
       {/* Text content */}
       <div className="text-center mb-[80px] max-w-[720px] mx-auto flex flex-col items-center">
         <div className="flex justify-center mb-6 items-center gap-[5px] border border-teal-400/60 w-[100px] rounded-full px-[5px] py-[3px] bg-teal-400/10 text-teal-400">

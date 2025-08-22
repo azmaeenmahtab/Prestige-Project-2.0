@@ -5,7 +5,7 @@ const Pricing = () => {
     const [active, setActive] = useState("monthly");
 
   return (
-    <div className="mb-[300px]">
+    <div className="sm:mb-[300px] mb-[150px]">
       {/* text header top part */}
       <div className="text-center mb-[80px] max-w-[720px] mx-auto flex flex-col items-center">
         <div className="flex justify-center mb-6 items-center gap-[5px] border border-teal-400/60 w-[100px] rounded-full px-[5px] py-[3px] bg-teal-400/10 text-teal-400">
@@ -21,7 +21,7 @@ const Pricing = () => {
         ><path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
           <span>Pricing</span>
         </div>
-        <h3 className="sm:text-5xl text-3xl font-bold mb-4 tracking-wider text-white">
+        <h3 className="sm:text-5xl text-3xl font-bold mb-4 tracking-wider text-white px-5">
         Supercharge your growth
         </h3>
         <p className="text-gray-400 sm:text-[18px] text-[14px] px-2.5 max-w-[790px]">

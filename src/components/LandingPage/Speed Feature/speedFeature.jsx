@@ -48,10 +48,10 @@ const SpeedFeature = () => {
   };
 
   return (
-    <div className="mb-[300px]">
+    <div className="sm:mb-[300px] mb-[150px]">
       {/* text header top part */}
       <div className="text-center mb-[80px] max-w-[720px] mx-auto flex flex-col items-center px-5">
-        <div className="flex justify-center mb-6 items-center gap-[5px] border border-teal-400/60 w-[100px] rounded-full px-[5px] py-[3px] bg-teal-400/10 text-teal-400">
+        <div className="flex justify-center mb-6 items-center gap-[5px] border border-teal-400/60 max-w-[100px] w-full rounded-full px-[5px] py-[3px] bg-teal-400/10 text-teal-400">
           <svg
             stroke="currentColor"
             fill="currentColor"

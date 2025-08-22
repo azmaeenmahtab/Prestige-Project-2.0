@@ -23,7 +23,7 @@ export default function AccordionUsage() {
       </div>
 
       {/* accordion */}
-    <div className="max-w-[770px] mx-auto py-3.5 px-2.5 mb-[300px]">
+    <div className="max-w-[770px] mx-auto py-3.5 px-2.5 sm:mb-[300px] mb-[150px]">
       <div className='mb-5'>
         <Accordion
         disableGutters
