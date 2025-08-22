@@ -14,10 +14,10 @@ const SmallDashboard = () => {
       >
         {/* text part left */}
         <div className="max-w-[650px] w-full pl-[100px] z-10 child WidthIncrease smDashTextDiv">
-          <h3 className="text-5xl text-white font-semibold tracking-wider mb-4">
+          <h3 className="sm:text-5xl text-3xl text-white font-semibold tracking-wider mb-4">
             Start building today.
           </h3>
-          <p className="text-[18px] text-[#A0AEC0] mb-5 max-w-[500px] WidthIncrease">
+          <p className="sm:text-[18px] text-[14px] text-[#A0AEC0] mb-5 max-w-[500px] WidthIncrease">
             Our app eliminates the need for complex spreadsheets, endless email
             threads, empowering businesses to achieve greater efficiency.
           </p>
