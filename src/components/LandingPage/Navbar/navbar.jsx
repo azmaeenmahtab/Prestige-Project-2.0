@@ -179,7 +179,7 @@ const Navbar = () => {
 
       {/* Mobile Fullscreen Dropdown */}
       {isMobileMenuOpen && (
-        <div className="fixed top-0 left-0 w-full h-full bg-[#101010] z-[100] flex flex-col pt-4">
+        <div className="fixed -top-1 left-0 w-full h-full bg-[#101010] z-[100] flex flex-col pt-4">
           <div className="flex justify-between items-center mb-[26px] px-6">
             <div className="flex gap-[4px] items-center">
               <img src={logo} className="w-[22px] h-[20px] mb-[4px]" alt="Logo" />
@@ -191,14 +191,14 @@ const Navbar = () => {
               </svg>
             </button>
           </div>
-          <div className='flex flex-col py-4 gap-10 bg-black'>
-          <div className="flex flex-col gap-6 text-[#718096] text-[20px] font-semibold bg-black  px-6">
+          <div className='flex flex-col py-4 gap-10 bg-[#101010] border-b border-gray-800  '>
+          <div className="flex flex-col gap-6 text-[#718096] text-[20px] font-semibold bg-[#101010]  px-6">
             <a href="#" className="hover:text-white">Integrations</a>
             <a href="#" className="hover:text-white">Blog</a>
             <a href="#" className="hover:text-white">Pricing</a>
           </div>
 
-          <div className="mt-auto flex flex-col items-center gap-3 pb-6 bg-black px-6">
+          <div className="mt-auto flex flex-col items-center gap-3 pb-6 bg-[#101010] px-6">
             <button className="text-white font-semibold text-[16px]">Log In</button>
             <button className="text-white cursor-pointer font-semibold text-[16px] border-gray-500/40 border px-[14px] py-[8px] rounded-[40px] hover:bg-gray-800/80">
               Get Started

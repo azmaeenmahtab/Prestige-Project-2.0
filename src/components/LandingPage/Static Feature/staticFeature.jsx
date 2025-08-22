@@ -29,8 +29,8 @@ const StaticFeature = ( ) => {
           </svg>
           <span>Feature</span>
         </div>
-        <h3 className="text-5xl font-bold mb-4 tracking-wider text-white">And so much more</h3>
-        <p className="text-gray-400 text-[18px] max-w-[750px] TextHeaderPadding1000">
+        <h3 className="sm:text-5xl text-3xl font-bold mb-4 tracking-wider text-white">And so much more</h3>
+        <p className="text-gray-400 sm:text-[18px] text-[14px] max-w-[750px] TextHeaderPadding1000">
         All the features you need to build a better experience, explore the possibilities, and unlock the full potential of what we have to offer.</p>
         </div>
 

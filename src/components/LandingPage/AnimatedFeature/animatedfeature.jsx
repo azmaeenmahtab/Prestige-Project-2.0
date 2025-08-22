@@ -38,8 +38,8 @@ export default function AnimatedFeature() {
             </svg>
             <span>Feature</span>
           </div>
-          <h3 className="text-5xl font-bold mb-4 tracking-wider">Other features</h3>
-          <p className="text-gray-400 text-[18px]">Our platform is designed to provide you with an exceptional user experience, catering to the needs of ambitious professionals and visionary entrepreneurs.</p>
+          <h3 className="sm:text-5xl text-3xl font-bold mb-4 tracking-wider">Other features</h3>
+          <p className="text-gray-400 sm:text-[18px] text-[14px]">Our platform is designed to provide you with an exceptional user experience, catering to the needs of ambitious professionals and visionary entrepreneurs.</p>
         </div>
         {/* button pannel part */}
         <div className="max-w-[916px] mx-auto bg-[#171923] border border-[#2D3748] rounded-[32px] p-1 flex md:flex-row flex-col  items-center justify-center gap-2 ">
