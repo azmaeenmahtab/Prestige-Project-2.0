@@ -9,6 +9,7 @@ import SpeedFeature from "./components/LandingPage/Speed Feature/speedFeature";
 import Pricing from "./components/LandingPage/Pricing Cards/pricing";
 import Review from "./components/LandingPage/Review Section/review";
 import AccordionUsage from "./components/LandingPage/FAQ/accordion";
+import SmallDashboard from "./components/LandingPage/Small Dashboard/smalldashboard";
 function App() {
  
   return (
@@ -24,6 +25,7 @@ function App() {
        <Pricing />
        <Review />
        <AccordionUsage />
+       <SmallDashboard />
     </>
   )
 }
