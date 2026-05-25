@@ -12,9 +12,7 @@
 
 ## 📸 Preview
 
-![PRESTIGE Landing Page Preview]([./public/preview.png](https://github.com/azmaeenmahtab/Prestige-Project-2.0/raw/main/public/image.png))
-
----
+![PRESTIGE Landing Page Preview](https://github.com/azmaeenmahtab/Prestige-Project-2.0/raw/main/public/image.png)---
 
 ## 🚀 Live Demo
 
